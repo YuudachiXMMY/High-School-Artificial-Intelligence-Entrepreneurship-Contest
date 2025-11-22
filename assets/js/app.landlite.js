@@ -2,7 +2,7 @@
 
     $.fn.countdown = function (settings, option) {
         return this.each(function () {
-            var $settings = $.extend({}, $.fn.countdown.defaultSettings, settings || {});         
+            var $settings = $.extend({}, $.fn.countdown.defaultSettings, settings || {});
             var $element = $(this);
             var final_datetime = new Date($settings.finalDate);
             var ms_perday = 24 * 60 * 60 * 1000;
@@ -27,7 +27,7 @@
                         if (hours_left >= 0)
                             hours_left = "0" + hours_left;
                         else
-                            hours_left = "00";
+                            hours_left = "001";
                     }
                     if (minutes_left < 10) {
                         if (minutes_left >= 0)
@@ -70,7 +70,7 @@
         });
     };
 
-    
+
     function countdown($settings, $element) {
         this.settings = this.getSettings($settings, $element);
         this.$element = $element;
@@ -83,10 +83,10 @@
             return $settings;
         },
     };
-    
+
     $.fn.countdown.defaultSettings = {
         format: "dd:hh:mm:ss",
-        finalDate: "25 May 2013, 14:30:00"
+        finalDate: "31 Jan 2026, 14:30:00"
     };
 
 })(jQuery);
@@ -342,7 +342,7 @@ function init_twitter() {
 }
 
 function init_video() {
-    $('.bg-video').mb_YTPlayer({ videoURL: youtube_video, mute: true, showControls: false, loop: true, autoplay: true, showYTLogo: false });    
+    $('.bg-video').mb_YTPlayer({ videoURL: youtube_video, mute: true, showControls: false, loop: true, autoplay: true, showYTLogo: false });
     disable_bgImages();
 }
 
@@ -401,7 +401,7 @@ function call_animations() {
     var scrollorama = $.scrollorama({
         blocks: '.scrollblock', enablePin: false
     });
-    
+
     $('.about-box').each(function (idx, el) {
         var property_name = ['left', 'right'];
         var property_value = [ 80, 80 ];

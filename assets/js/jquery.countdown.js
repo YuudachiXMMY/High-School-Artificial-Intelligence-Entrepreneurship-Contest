@@ -2,7 +2,7 @@
 
     $.fn.countdown = function (settings, option) {
         return this.each(function () {
-            var $settings = $.extend({}, $.fn.countdown.defaultSettings, settings || {});         
+            var $settings = $.extend({}, $.fn.countdown.defaultSettings, settings || {});
             var $element = $(this);
             var final_datetime = new Date($settings.finalDate);
             var ms_perday = 24 * 60 * 60 * 1000;
@@ -70,7 +70,7 @@
         });
     };
 
-    
+
     function countdown($settings, $element) {
         this.settings = this.getSettings($settings, $element);
         this.$element = $element;
@@ -83,10 +83,10 @@
             return $settings;
         },
     };
-    
+
     $.fn.countdown.defaultSettings = {
         format: "dd:hh:mm:ss",
-        finalDate: "25 May 2013, 14:30:00"
+        finalDate: "31 Jan 2026, 14:30:00"
     };
 
 })(jQuery);
