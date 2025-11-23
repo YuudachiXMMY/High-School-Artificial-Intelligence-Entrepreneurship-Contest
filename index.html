@@ -14,7 +14,9 @@
     <link href="assets/ytplayer/css/YTPlayer.css" rel="stylesheet" />
     <link type="text/css" href='http://fonts.useso.com/css?family=Aldrich' rel="stylesheet" />
     <!-- ## Customized CSS ## -->
+    <script src="https://kit.fontawesome.com/d6f785f803.js" crossorigin="anonymous"></script>
     <link id="skin-styler" href="assets/css/why-us.css" rel="stylesheet" />
+    <link id="skin-styler" href="assets/css/timeline.css" rel="stylesheet" />
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js" type="text/javascript"></script>
       <script src="assets/js/respond.min.js" type="text/javascript"></script>
@@ -50,8 +52,10 @@
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#top">Home</a></li>
                                     <li><a href="#about">About</a></li>
-                                    <li><a href="#team">Team</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#timeline">Timeline</a></li>
+                                    <!-- <li><a href="#team">Team</a></li> -->
+                                    <li><a href="#contact">Registration</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -245,12 +249,16 @@
         <!-- ## why join section end ## -->
 
 <!-- Section: Why us -->
-<section class="why-us mt-40 bg-[#ffffff]">
+<section id="features" class="why-us scrollblock">
     <div class="container">
         <!-- START why-us SECTION TITLE -->
-        <div class="why-us_title text-center">
-            <h2 class="heading-primary text-center mb-5">WHY JOIN | UNIQUE FEATURES</h2>
-            <!-- <p class="mb-5">{{{whyuscontent}}}</p> -->
+        <div class="row">
+            <div class="col-lg-12 text-center about-box">
+                <h2>WHY JOIN | FEATURES
+                <span class="line"><span class="dot"></span></span>
+                    </h2>
+                <!-- <p class="mb-5">{{{whyuscontent}}}</p> -->
+            </div>
         </div>
         <!-- END why-us SECTION TITLE -->
 
@@ -278,7 +286,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus2icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-cubes fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Build a Real, Usable AI Product</h5>
                             <p>
@@ -295,7 +303,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus2icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-globe fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Multidisciplinary Collaboration Encouraged</h5>
                             <p>
@@ -317,7 +325,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus3icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-comment-nodes fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Fair and Transparent Evaluation</h5>
                             <p>
@@ -331,7 +339,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus4icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-person-chalkboard fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Guidance from Academic + Industry Experts</h5>
                             <p>
@@ -345,7 +353,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus4icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-gears fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">A Full End-to-End Innovation Experience</h5>
                             <p>
@@ -373,7 +381,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus5icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-server fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Ethical AI & Sustainability Focus</h5>
                             <p>
@@ -389,7 +397,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus6icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-trophy fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Awards & Recognition Opportunities</h5>
                             <p>
@@ -403,7 +411,7 @@
                     <div class="col-lg-12 col-md-6 col-sm-10 mx-auto">
                         <div class="content-box text-center">
                             <div class="content-box-icon">
-                                <i class="fa {{{whyus6icon}}} fa-2x"></i>
+                                <i class="fa-solid fa-chart-line fa-2x"></i>
                             </div>
                             <h5 class="heading-secondary">Real-World Exposure & Post-Competition Growth Pathways</h5>
                             <p>
@@ -429,194 +437,162 @@
     </div>
 </section>
 
-        <!-- ## parallax section 2 start ## -->
-        <section id="parallax-section-2">
-            <!-- ## parallax background 2 ## -->
-            <div class="bg2"></div>
-            <!-- ## parallax background pattern 2 start ## -->
-            <div class="bg-pattern2">
-                <!-- ## team section start ## -->
-                <section id="team" class="scrollblock_team">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2>MEET OUR TEAM
-                             <span class="line"><span class="dot"></span></span>
-                                </h2>
+
+<!-- Section: Timeline -->
+<section id="timeline" class="why-us scrollblock">
+    <div section-scroll='2'  class="wd_scroll_wrap">
+    <div class="wd_story_wrapper wd_toppadder90 wd_bottompadder90">
+        <div class="wd_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
+                        <h1>Important Timeline
+                            <span class="line"><span class="dot"></span></span>
+                        </h1>
+                        <!-- <h4>Jenny & Mark</h4> -->
+                        <!-- <img src="./assets/img/timeline-heading.png" alt="Heading" class="img-responsive timeline-heading-center"> -->
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wd_story_covers">
+                        <div class="wd_story_line"></div>
+                        <div class="wd_story_covers_box_left">
+                            <div class="wd_story_dot"><span></span></div>
+                            <div class="wd_story_covers_box_img">
+                                <img src="./assets/images/timeline1.jpg" alt="Story">
+                            </div>
+                            <div class="wd_story_covers_box_datails">
+                                <h1>Registration</h1>
+                                <span>December to February</span>
+                                <p>The registration window runs from December to March, giving schools and students ample time to assemble their teams and prepare initial materials.
+                                    <br>
+                                    <br>
+                                    Every team passes through a strict and fair review process:<br>
+                                        •	Blind Review (team/school information hidden)<br>
+                                        •	Originality & plagiarism check<br>
+                                        •	Structure-based scoring on Innovation, Business Logic, and Social Impact<br>
+                                        •	Written feedback from judges<br>
+                                        <br>
+                                    Teams with the strongest foundational ideas advance to the Online Pitch Round.</p>
                             </div>
                         </div>
-                        <div class="row0">
-                            <div class="col-md-3 col-sm-6">
-                                <!-- ## member box start ## -->
-                                <div class="col-lg-12 member-box">
-                                    <!-- ## member image start ## -->
-                                    <div class="member-img">
-                                        <a href="#">
-                                            <img class="img-responsive" src="assets/images/team/1.jpg" alt=".img-responsive" /></a>
-                                    </div>
-                                    <!-- ## member image end ## -->
-                                    <!-- ## member data start ## -->
-                                    <div class="member-data">
-                                        <!-- ## member info start ## -->
-                                        <div class="member-info">
-                                            <!-- ## member name ## -->
-                                            <div class="member-name"><a href="#">John Doe</a></div>
-                                            <!-- ## member title ## -->
-                                            <div class="member-title">Developer</div>
-                                        </div>
-                                        <!-- ## member info end ## -->
-                                        <!-- ## member social start ## -->
-                                        <div class="member-social">
-                                            <a href="#"><span class="fa fa-facebook"></span></a>
-                                            <a href="#"><span class="fa fa-twitter"></span></a>
-                                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                                        </div>
-                                        <!-- ## member social end ## -->
-                                        <div class="clearfix"></div>
-                                        <!-- ## member content start ## -->
-                                        <div class="member-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Consectetur adipiscing elit. Curabitur pellentesque neque eget. </div>
-                                        <!-- ## member content end ## -->
-                                    </div>
-                                    <!-- ## member data end ## -->
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!-- ## member box end ## -->
+                        <div class="wd_story_covers_box_right">
+                            <div class="wd_story_dot"><span></span></div>
+                            <div class="wd_story_covers_box_datails">
+                                <h1>Initial Submission</h1>
+                                <span>Early April 2026</span>
+                                <p>Submit your project materials through the online system.
+                                    <br>
+                                    <br>
+                                    Every team passes through a strict and fair review process:<br>
+                                        •	Blind Review (team/school information hidden)<br>
+                                        •	Originality & plagiarism check<br>
+                                        •	Structure-based scoring on Innovation, Business Logic, and Social Impact<br>
+                                        •	Written feedback from judges<br>
+                                        <br>
+                                    Teams with the strongest foundational ideas advance to the Online Pitch Round.</p>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <!-- ## member box start ## -->
-                                <div class="col-lg-12 member-box">
-                                    <!-- ## member image start ## -->
-                                    <div class="member-img">
-                                        <a href="#">
-                                            <img class="img-responsive" src="assets/images/team/2.jpg" alt=".img-responsive" /></a>
-                                    </div>
-                                    <!-- ## member image end ## -->
-                                    <!-- ## member data start ## -->
-                                    <div class="member-data">
-                                        <!-- ## member info start ## -->
-                                        <div class="member-info">
-                                            <!-- ## member name ## -->
-                                            <div class="member-name"><a href="#">John Doe</a></div>
-                                            <!-- ## member title ## -->
-                                            <div class="member-title">Developer</div>
-                                        </div>
-                                        <!-- ## member info end ## -->
-                                        <!-- ## member social start ## -->
-                                        <div class="member-social">
-                                            <a href="#"><span class="fa fa-facebook"></span></a>
-                                            <a href="#"><span class="fa fa-twitter"></span></a>
-                                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                                        </div>
-                                        <!-- ## member social end ## -->
-                                        <div class="clearfix"></div>
-                                        <!-- ## member content start ## -->
-                                        <div class="member-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Consectetur adipiscing elit. Curabitur pellentesque neque eget. </div>
-                                        <!-- ## member content end ## -->
-                                    </div>
-                                    <!-- ## member data end ## -->
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!-- ## member box end ## -->
+                            <div class="wd_story_covers_box_img">
+                                <img src="./assets/images/timeline2.jpg" alt="Story">
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <!-- ## member box start ## -->
-                                <div class="col-lg-12 member-box">
-                                    <!-- ## member image start ## -->
-                                    <div class="member-img">
-                                        <a href="#">
-                                            <img class="img-responsive" src="assets/images/team/3.jpg" alt=".img-responsive" /></a>
-                                    </div>
-                                    <!-- ## member image end ## -->
-                                    <!-- ## member data start ## -->
-                                    <div class="member-data">
-                                        <!-- ## member info start ## -->
-                                        <div class="member-info">
-                                            <!-- ## member name ## -->
-                                            <div class="member-name"><a href="#">John Doe</a></div>
-                                            <!-- ## member title ## -->
-                                            <div class="member-title">Developer</div>
-                                        </div>
-                                        <!-- ## member info end ## -->
-                                        <!-- ## member social start ## -->
-                                        <div class="member-social">
-                                            <a href="#"><span class="fa fa-facebook"></span></a>
-                                            <a href="#"><span class="fa fa-twitter"></span></a>
-                                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                                        </div>
-                                        <!-- ## member social end ## -->
-                                        <div class="clearfix"></div>
-                                        <!-- ## member content start ## -->
-                                        <div class="member-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Consectetur adipiscing elit. Curabitur pellentesque neque eget. </div>
-                                        <!-- ## member content end ## -->
-                                    </div>
-                                    <!-- ## member data end ## -->
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!-- ## member box end ## -->
+                        </div>
+                        <div class="wd_story_covers_box_right">
+                            <div class="wd_story_dot"><span></span></div>
+                            <div class="wd_story_covers_box_datails">
+                                <h1>Final Day Showcase & Pitch</h1>
+                                <span>Late May – Early June 2026</span>
+                                <p>A full in-person innovation experience combining exhibition, pitching, and awards.
+                                    <br><br>
+
+                                    Activities Include:<br>
+                                        •	Project Exhibition: Booth & poster session with judge walkthroughs<br>
+                                        •	Live Pitch: 5-minute pitch + 5-minute Q&A on stage<br>
+                                        •	Signed scoring with outlier removal to ensure fairness<br>
+                                        •	Award Ceremony: Overall Awards, Special Awards, AI Responsibility Badge<br>
+                                        <br><br>
+                                    All finalist teams receive professional feedback and public recognition.</p>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <!-- ## member box start ## -->
-                                <div class="col-lg-12 member-box">
-                                    <!-- ## member image start ## -->
-                                    <div class="member-img">
-                                        <a href="#">
-                                            <img class="img-responsive" src="assets/images/team/4.jpg" alt=".img-responsive" /></a>
-                                    </div>
-                                    <!-- ## member image end ## -->
-                                    <!-- ## member data start ## -->
-                                    <div class="member-data">
-                                        <!-- ## member info start ## -->
-                                        <div class="member-info">
-                                            <!-- ## member name ## -->
-                                            <div class="member-name"><a href="#">John Doe</a></div>
-                                            <!-- ## member title ## -->
-                                            <div class="member-title">Developer</div>
-                                        </div>
-                                        <!-- ## member info end ## -->
-                                        <!-- ## member social start ## -->
-                                        <div class="member-social">
-                                            <a href="#"><span class="fa fa-facebook"></span></a>
-                                            <a href="#"><span class="fa fa-twitter"></span></a>
-                                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                                        </div>
-                                        <!-- ## member social end ## -->
-                                        <div class="clearfix"></div>
-                                        <!-- ## member content start ## -->
-                                        <div class="member-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Consectetur adipiscing elit. Curabitur pellentesque neque eget. </div>
-                                        <!-- ## member content end ## -->
-                                    </div>
-                                    <!-- ## member data end ## -->
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!-- ## member box end ## -->
+                            <div class="wd_story_covers_box_img">
+                                <img src="./assets/images/timeline4.jpg" alt="Story">
+                            </div>
+                        </div>
+                        <div class="wd_story_covers_box_left">
+                            <div class="wd_story_dot"><span></span></div>
+                            <div class="wd_story_covers_box_img">
+                                <img src="./assets/images/timeline3.jpg" alt="Story">
+                            </div>
+                            <div class="wd_story_covers_box_datails">
+                                <h1>Online Pitch</h1>
+                                <span>May 2026</span>
+                                <p>A 10-minute virtual evaluation focused on clarity, logic, and real evidence.
+                                    <br>
+                                    <br>
+                                    Format:<br>
+                                        •	5-minute presentation (problem, AI logic, prototype, validation data)<br>
+                                        •	5-minute Q&A with the judging panel<br>
+                                        •	Scoring based on business feasibility, AI technical merit, user validation, and presentation quality<br>
+                                        •	Judges submit structured written feedback for every team<br>
+                                        <br><br>
+                                    Top teams move on to the Final Day.
+                                    </p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- ## team section end ## -->
+                </div>
             </div>
-            <!-- ## parallax background pattern 2 end ## -->
-        </section>
-        <!-- ## parallax section 2 end ## -->
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Timeline End -->
+
 
         <!-- ## contact section start ## -->
         <section id="contact" class="scrollblock">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h2>CONTACT US
+                        <h2>Registration
                         <span class="line"><span class="dot"></span></span>
                         </h2>
                     </div>
                 </div>
                 <div class="row">
+
+                    <div class="col-sm-6 contact-info contact-box">
+                        <h4>Who Can Register</h4>
+
+                        <!-- ## contact info start ## -->
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-school text-theme-inverse"></i><span><strong>Students aged 14–18</strong> currently enrolled in high school (including IB, AP, OSSD, A-Level, and local curricula)</span></li>
+                            <li><i class="fa-li fa fa-people-group text-theme-inverse"></i><span><strong>Teams of 5–8 students</strong> working on one AI-driven product, service, or business concept</span></li>
+                        </ul>
+                        <!-- ## contact info endstart ## -->
+
+                        <h4>Team Composition</h4>
+
+                        <p>Each team should reflect the 3I structure (Intelligence × Innovation × Impact) with complementary roles, for example:</p>
+
+                        <!-- ## contact info start ## -->
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-school text-theme-inverse"></i><span><strong>AI / Technical Lead</strong> : models, data, system architecture</span></li>
+                            <li><i class="fa-li fa fa-people-group text-theme-inverse"></i><span><strong>Business / Market Lead</strong> : user research, business model, finance</span></li>
+                            <li><i class="fa-li fa fa-people-group text-theme-inverse"></i><span><strong>Impact / Ethics Lead</strong> : social value, ethical AI, ESG & risk thinking</span></li>
+                            <li><i class="fa-li fa fa-people-group text-theme-inverse"></i><span><strong>Design / Communication Lead</strong> : UX/UI, branding, storytelling, pitch</span></li>
+                        </ul>
+                        <!-- ## contact info endstart ## -->
+
+                        <p>Teams may assign multiple roles to one person, but all three dimensions (technology, business, impact) must be clearly covered.</p>
+
+                        <div class="form-group">
+                            <input type="button"  value="Registration Form Coming Soon" class="btn btn-theme-inverse" />
+                        </div>
+                    </div>
+
                     <div class="col-sm-6 contact-form contact-box">
-                        <h4>Send us mail</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <h4>Questions? Send us mail</h4>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> -->
                         <!-- ## contact form start ## -->
                         <form name="form-contact-us" id="form-contact-us">
                             <div class="row">
@@ -653,26 +629,13 @@
                         </form>
                         <!-- ## contact form end ## -->
                     </div>
-
-                    <div class="col-sm-6 contact-info contact-box">
-                        <h4>Address Info</h4>
-                        <!-- ## contact info start ## -->
-                        <ul class="fa-ul">
-                            <li><i class="fa-li fa fa-home text-theme-inverse"></i><span>1234 - 1235 Lorem ipsum dolor, Curabitur, PO Box - 123456</span></li>
-                            <li><i class="fa-li fa fa-phone text-theme-inverse"></i><span>+1 234 5678</span></li>
-                            <li><i class="fa-li fa fa-envelope text-theme-inverse"></i><span>hello@multilite.com</span></li>
-                            <li><i class="fa-li fa fa-globe text-theme-inverse"></i><span>www.multilite.com</span></li>
-                        </ul>
-                        <!-- ## contact info endstart ## -->
-
-                    </div>
                 </div>
             </div>
         </section>
         <!-- ## contact section end ## -->
 
         <!-- ## blockquote section start ## -->
-        <section id="bquote" class="scrollblock">
+        <!-- <section id="bquote" class="scrollblock">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-lg-offset-1 quote-box">
@@ -682,147 +645,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ## blockquote section end ## -->
 
-        <!-- ## twitter section start ## -->
-        <section id="twitter">
-            <!-- ## tweets container start ## -->
-            <div class="tweets-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>RECENT TWEETS
-                            <span class="line"><span class="dot"></span></span>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <!-- twitterfeed_ticker start -->
-                            <div id="twitterfeed_ticker1" class="twitterfeed_ticker light"></div>
-                            <!-- twitterfeed_ticker end -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ## tweets container end ## -->
-            <div class="clearfix"></div>
-        </section>
-        <!-- ## twitter section end ## -->
-
-        <!-- ## footer section start ## -->
-        <section id="footer">
-            <!-- ## footer background pattern start ## -->
-            <div class="bg-pattern3">
-                <!-- ## social container start ## -->
-                <div class="container social-container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h3>Let's Socialize
-                            <span class="line"><span class="dot"></span></span>
-                            </h3>
-                            <!-- ## social-widget start ## -->
-                            <div class="social-widget">
-                                <!-- ## list-inline start ## -->
-                                <ul class="list-inline">
-                                    <li>
-                                        <!-- ## pinterest start ## -->
-                                        <a class="pinterest" href="#" data-title="pinterest" data-toggle="tooltip">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-pinterest"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## pinterest end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## linkedin start ## -->
-                                        <a class="linkedin" href="#" data-title="linkedin">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-linkedin"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## linkedin end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## twitter start ## -->
-                                        <a class="twitter" href="#" data-title="twitter">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-twitter"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## twitter end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## rss start ## -->
-                                        <a class="rss" href="#" data-title="rss">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-rss"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## rss end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## facebook start ## -->
-                                        <a class="facebook" href="#" data-title="facebook">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-facebook"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## facebook end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## googleplus start ## -->
-                                        <a class="google" href="#" data-title="google plus">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-google-plus"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## googleplus end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## dribbble start ## -->
-                                        <a class="dribbble" href="#" data-title="dribbble">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-dribbble"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## dribbble end ## -->
-                                    </li>
-                                    <li>
-                                        <!-- ## tumblr start ## -->
-                                        <a class="tumblr" href="#" data-title="tumblr">
-                                            <span class="fa-stack fa-3x">
-                                                <span class="fa fa-light fa-tumblr"></span>
-                                            </span>
-                                        </a>
-                                        <!-- ## tumblr end ## -->
-                                    </li>
-                                </ul>
-                                <!-- ## list-inline end ## -->
-                                <div class="clearfix"></div>
-                            </div>
-                            <!-- ## social-widget end ## -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- ## footer quote start ## -->
-                        <div class="col-lg-12 text-center footer-quote">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        </div>
-                        <!-- ## footer quote end ## -->
-                    </div>
-                </div>
-                <!-- ## social container end ## -->
-                <!-- ## footer copyright start ## -->
-                <div class="footer-copyright text-center">
-                    <!-- Company name Copyright &copy; 2014, All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> -->
-                </div>
-                <!-- ## footer copyright end ## -->
-            </div>
-            <!-- ## footer background pattern end ## -->
-        </section>
-        <!-- ## footer section end ## -->
 
         <!-- ## preloader start ## -->
         <div id="preloader">
@@ -860,4 +685,3 @@
     <script src="assets/js/app.landlite.min.js" type="text/javascript"></script>
 </body>
 </html>
-         

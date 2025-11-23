@@ -294,7 +294,7 @@ h3 span span.dot {
     color: #ffffff;
 }
 
-#header, #about, #parallax-section-1, #parallax-section-2 {
+#header, #about, #features, #parallax-section-1, #parallax-section-2 {
     position: relative;
 }
 
@@ -324,7 +324,7 @@ h3 span span.dot {
     color: #d2322d;
 }
 
-#about {
+#features, #about {
     padding: 50px 0 80px 0;
     background: rgba(0, 0, 0, 0.80);
     color: #cccccc;
