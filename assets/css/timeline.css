@@ -1,3 +1,31 @@
+#footer .social-widget .blog {
+    background: #008000;
+  }
+
+#footer .social-widget .instagram {
+    background: #c13584;
+  }
+
+.fa.fa-instagram {
+color: #ffffff;
+}
+
+.navbar-brand img {
+    max-height: 40px; /* helps ensure no overflow */
+    height: 3.8vw;
+    width: auto;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .navbar-brand img {
+      max-height: 40px; /* helps ensure no overflow */
+      height: 8vw;
+      width: auto;
+    }
+}
+
+
 .timeline-heading-center {
     display: block;
     margin-left: auto;
